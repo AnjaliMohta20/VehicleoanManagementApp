@@ -1,0 +1,51 @@
+body{
+    background-color:grey;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    margin-left: 2%;
+    font-size: 2rem;
+}
+
+p{
+	margin-top: 10%;
+    margin-left: 40%;
+}
+
+.mainsection {
+    align-content: center;
+    margin-left: 43%;
+}
+
+.mainsection2 {
+    align-content: center;
+    margin-top:10%;
+    margin-left: 43%;
+}
+
+form {
+    align-content: center;
+    margin-top:0;
+    margin-left:2%;
+}
+
+button{   border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.section1{
+    align-items: center;
+}
+
