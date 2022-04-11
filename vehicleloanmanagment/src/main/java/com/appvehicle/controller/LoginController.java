@@ -30,8 +30,8 @@ public class LoginController {
 	
 	@GetMapping("/userlogin/{userEmail}/{password}")
 	public String  verifyUser(
-		@PathVariable ("userEmail") String userEmail, @PathVariable("password")String password) throws RegistrationException, RecordNotFoundException, DuplicateRecordException{
-			 // String userEmail, String password) throws RegistrationException, RecordNotFoundException, DuplicateRecordException{
+		//@PathVariable ("userEmail") String userEmail, @PathVariable("password")String password) throws RegistrationException, RecordNotFoundException, DuplicateRecordException{
+			 String userEmail, String password) throws RegistrationException, RecordNotFoundException, DuplicateRecordException{
 
 		  UserRegistrationEntity retUser = loginService.authenticateUser(userEmail, password);
 		  //Log.info(" user signing");
